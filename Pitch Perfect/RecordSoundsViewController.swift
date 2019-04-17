@@ -29,12 +29,12 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
     func recordingUI(isRecording: Bool) {
         if isRecording == true {
-            stopRecordingButton.isEnabled = true
-            recordButton.isEnabled = false
+            stopRecordingButton.isEnabled = true // to enable the button
+            recordButton.isEnabled = false // to disable the button
             recordingLabel.text = "Recording in Progress"
         } else {
-            recordButton.isEnabled = true
-            stopRecordingButton.isEnabled = false
+            recordButton.isEnabled = true // to enable the button
+            stopRecordingButton.isEnabled = false // to disable the button
             recordingLabel.text = "Tap to Record"
         }
     }
@@ -74,7 +74,8 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "stopRecording" {
+        let stopRecordingSegueIdentifier = "stopRecording"
+        if segue.identifier == stopRecordingSegueIdentifier {
             let playSoundsVC = segue.destination as! PlaySoundsViewController
             let recordedAudioURL = sender as! URL
             playSoundsVC.recordedAudioURL = recordedAudioURL
