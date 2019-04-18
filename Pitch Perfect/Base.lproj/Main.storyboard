@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iR-08-1g4">
-                                <rect key="frame" x="185" y="220" width="110" height="20"/>
+                                <rect key="frame" x="150" y="222" width="180" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -51,11 +51,11 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Vzm-9g-y2s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mys-b8-Im8"/>
-                            <constraint firstItem="9iR-08-1g4" firstAttribute="width" secondItem="Vzm-9g-y2s" secondAttribute="width" id="QRv-cR-yLn"/>
-                            <constraint firstItem="9iR-08-1g4" firstAttribute="top" secondItem="Vzm-9g-y2s" secondAttribute="bottom" constant="5" id="Xke-FL-4C2"/>
+                            <constraint firstItem="9iR-08-1g4" firstAttribute="width" secondItem="Vzm-9g-y2s" secondAttribute="width" constant="70" id="QRv-cR-yLn"/>
+                            <constraint firstItem="9iR-08-1g4" firstAttribute="top" secondItem="Vzm-9g-y2s" secondAttribute="bottom" constant="7" id="Xke-FL-4C2"/>
                             <constraint firstItem="9iR-08-1g4" firstAttribute="centerX" secondItem="Vzm-9g-y2s" secondAttribute="centerX" id="gvb-f5-WJM"/>
                             <constraint firstItem="Vzm-9g-y2s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="luK-lk-VJD"/>
-                            <constraint firstItem="tJ0-jH-hGQ" firstAttribute="top" secondItem="9iR-08-1g4" secondAttribute="bottom" constant="10" id="ny3-aS-M24"/>
+                            <constraint firstItem="tJ0-jH-hGQ" firstAttribute="top" secondItem="9iR-08-1g4" secondAttribute="bottom" constant="8" id="ny3-aS-M24"/>
                             <constraint firstItem="tJ0-jH-hGQ" firstAttribute="centerX" secondItem="Vzm-9g-y2s" secondAttribute="centerX" id="xbf-3D-l00"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
