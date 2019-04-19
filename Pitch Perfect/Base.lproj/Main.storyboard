@@ -43,12 +43,12 @@
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9iR-08-1g4">
                                 <rect key="frame" x="150" y="222" width="180" height="20"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" red="0.95661484771573602" green="0.95661484771573602" blue="0.95661484771573602" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.44705882352941173" green="0.46274509803921571" blue="0.49019607843137253" alpha="0.83938891270000004" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Vzm-9g-y2s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mys-b8-Im8"/>
                             <constraint firstItem="9iR-08-1g4" firstAttribute="width" secondItem="Vzm-9g-y2s" secondAttribute="width" constant="70" id="QRv-cR-yLn"/>
@@ -157,7 +157,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.44705882352941173" green="0.46274509803921571" blue="0.49019607843137253" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="GpI-V3-Gam" firstAttribute="bottom" secondItem="ula-Mb-jZr" secondAttribute="bottom" constant="16" id="Gbe-Dr-1qz"/>
                             <constraint firstItem="ula-Mb-jZr" firstAttribute="top" secondItem="LlG-ly-MJV" secondAttribute="bottom" constant="8" id="Hfq-BE-v2G"/>
